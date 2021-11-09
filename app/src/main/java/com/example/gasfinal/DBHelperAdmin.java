@@ -19,6 +19,7 @@ public class DBHelperAdmin extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase MyDB) {
         MyDB.execSQL("create Table admins(username TEXT primary key, password TEXT)");
 
+
     }
 
     @Override
